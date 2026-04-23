@@ -41,14 +41,15 @@
                 android:layout_height="22dp"
                 app:tint="#000000" />
 
-            <ImageView
-                android:id="@+id/saveBtn"
-                android:layout_width="22dp"
-                android:layout_height="22dp"
-                android:src="@android:drawable/ic_menu_save"
-                app:tint="#000000" />
         </LinearLayout>
     </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/saveBtn"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:src="@android:drawable/ic_menu_save"
+        app:tint="#000000" />
 
     <ScrollView
         android:layout_width="match_parent"
